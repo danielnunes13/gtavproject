@@ -175,6 +175,7 @@ gap: 30px;
 .compre-ja .btn-plataforma .plataformas li{
     padding: 20px;
 }
+
 .compre-ja  .btn-plataforma .plataformas li:nth-child(1){
     border: 1px solid #00439c;
 }
