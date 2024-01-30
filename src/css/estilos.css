@@ -87,7 +87,7 @@ body{
     line-height: 1.6;
 }
 
-.btn-comprar, .btn-plataforma{
+.btn-trailer, .btn-comprar, .btn-plataforma{
     background-color: rgba(255, 255, 255, .1);
     border: 0.5px solid #fff;
     border-radius: 4px;
@@ -104,10 +104,15 @@ body{
     width: 100%;
     cursor: pointer;
 }
+.btn-trailer:hover{
+    background-color: #fff;
+    color: #000
+}
 .btn-comprar:hover{
     background-color: #fff;
     color: #000;
 }
+
 
 .compre-ja .capa-do-jogo{
     width: 270px;
@@ -172,6 +177,7 @@ gap: 30px;
     display: flex;
     opacity: 1;
 }
+
 .compre-ja .btn-plataforma .plataformas li{
     padding: 20px;
 }
